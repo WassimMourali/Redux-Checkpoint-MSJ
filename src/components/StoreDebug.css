@@ -1,0 +1,19 @@
+.store-debug {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: hsl(0, 4%, 31%);
+  }
+  
+  .store-debug h2 {
+    margin-top: 0;
+  }
+  
+  .store-debug pre {
+    background: hsl(0, 2%, 33%);
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  

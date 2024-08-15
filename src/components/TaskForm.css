@@ -1,0 +1,27 @@
+.task-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #333;
+  color: #e0e0e0;
+}
+
+.task-form input:focus,
+.task-form textarea:focus {
+  border-color: #00ff00;
+  background-color: #444;
+}
+
+.task-form input[type="date"] {
+  font-family: 'Roboto', sans-serif; 
+}
